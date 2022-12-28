@@ -7,6 +7,7 @@ import java.util.LinkedList;
 public class Album {
     private String name;
     private String artist;
+    public static final String quality = "Hi-Res";
     private ArrayList<Song> songs;
 
     public Album(String name, String artist) {

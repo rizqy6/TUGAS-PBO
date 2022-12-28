@@ -1,6 +1,6 @@
 package FINALPROJECT;
 
-public class Song {
+public class Song extends Album{
     private String title;
     private double duration;
 
@@ -26,5 +26,9 @@ public class Song {
                 "title='" + title + '\'' +
                 ", duration=" + duration +
                 '}';
+    }
+
+    public void Quality(){
+        System.out.println(quality);
     }
 }
